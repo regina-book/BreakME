@@ -18,13 +18,13 @@ void pop_pile(Pile& p);
 Item sommet_pile(Pile& p);
 
 int main() {
-    int auth;
+    int auth, pass;
     Pile pile;
     int secret[]={2,5,7,9,5,3};
 
     cout << NOTICE << endl;
     cin >> auth;
-    cout << auth << endl;
+    cin >> pass;
 
     init_pile(pile);
     for(int i=0; i<SECRET_SIZE; i++)
@@ -36,13 +36,21 @@ int main() {
     for(int i=1; i<SECRET_SIZE; i+=2)
         auth*=secret[i];
 
-    fprintf(stdout, "%d-2501", auth);
     delete_pile(pile);
+
+    if(pass==auth)
+        cout << "Good Job ! :)";
+    else
+        cout << "Bad Job ! :(";
+
     return 0;
 }
 
 void push_pile(Pile& p, Item item) {
-    Item* tmp = p.cpile;
+    Item* tmp = p
+
+
+    .cpile;
     p.cpile = new Item[p.spile+1];
         for(int i=0; i<p.spile; i++)
             p.cpile[i] = tmp[i];
