@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #define SECRET_SIZE 6
-#define NOTICE "[KeyGen 001] Entrez votre numero de client et le bon code d'authentification :"
+#define NOTICE "[#] Entrez votre numero de client et le bon code d'authentification :"
 using namespace std;
 typedef unsigned int uint;
 typedef int Item;
