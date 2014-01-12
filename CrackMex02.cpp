@@ -47,10 +47,7 @@ int main() {
 }
 
 void push_pile(Pile& p, Item item) {
-    Item* tmp = p
-
-
-    .cpile;
+    Item* tmp = p.cpile;
     p.cpile = new Item[p.spile+1];
         for(int i=0; i<p.spile; i++)
             p.cpile[i] = tmp[i];
