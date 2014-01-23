@@ -45,9 +45,10 @@
 
         delete_pile(pile);
 
-        if(clock() - antidbg > 100)
+        if(clock() - antidbg > 100) {
+            cout << "Anti-Debugging Protection";
             return 0x1;
-
+        }
         if(pass==auth)
             cout << "Good Job ! :)";
         else
