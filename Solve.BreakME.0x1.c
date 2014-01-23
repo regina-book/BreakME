@@ -1,7 +1,7 @@
 	
 	
 	/**/
-	//@SolutionCrackMex01
+	//@Solve.BreakME.0x1
 	//@Toufik Airane
 	//@2013.10
 	/**/
