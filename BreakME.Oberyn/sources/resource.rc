@@ -1,0 +1,4 @@
+#include "resource.h"
+
+bitmapName BITMAP "got.bmp"
+soundName WAVE "got.wav"
