@@ -8,7 +8,7 @@ else
 {
 $data = unserialize(base64_decode($_COOKIE['data']));
 if($data['secret'] != hash("sha256",$_GET['q']))
-    header('Location: http://tfairane.github.com');
+    header('Location: http://tfairane.com');
 echo "YOU CANT SEE ME ! :D";
 }
 ?>
