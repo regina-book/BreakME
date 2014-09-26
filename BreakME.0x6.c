@@ -4,7 +4,7 @@
  * Change ONE letter to compile
  */
 #define woman(t,h,i,n,k) h##i##n##t
-#define man woman(g,m,a,i,l)//tfairane[at]gmail[dot]com
+#define man woman(g,m,a,i,l)//@tfairane
 void man() {
     printf(":%s\n", (0)?"(":")");
 }
