@@ -3,8 +3,8 @@
  * An error has slipped into this source code
  * Change ONE letter to compile
  */
-#define woman(t,h,i,n,k) h##i##n##t
-#define sexy woman(g,m,a,i,l)//@tfairane
+#define lady(t,h,i,n,k) h##i##n##t
+#define sexy lady(g,m,a,i,l)//@@@@
 void sexy() {
     printf(":%s\n", (0)?"(":")");
 }
